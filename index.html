@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,21 +47,35 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               </form>
             </div>
+          </div>
           </nav>
-        </div>
 
       <!-- body -->
-      <div class="container-body">
-          <div class="badge container">
-              <div class="photo-box">
+      <div class="container-fluid bg-danger d-flex align-items-center full-height">
 
-              </div>
-              <div class="biodata">
-                  asdasd
-
-              </div>
-
+        <div class="container">
+        <div class="row">
+          <div class="col-sm-5 bg-dark">
+            Column 1
           </div>
+          <div class="col-sm-7 bg-info">
+            <div class="row">
+              <div class="col-sm-2 bg-warning">
+                row1 col1
+              </div>
+              <div class="col-sm-10 bg-alert">
+                row1 col2
+              </div>
+            </div>
+            <div class="row bg-warning">
+              <div class="col-sm-12">
+  
+                row2
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
 
 
