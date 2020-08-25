@@ -10,26 +10,29 @@
     <link rel="stylesheet" href="/style.css">
     <title>Hello, world!</title>
     <script src="https://use.fontawesome.com/ba840f2e53.js"></script>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Quicksand:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="background"></div>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand fjalla text-white" href="#">imamf.</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="linkedin.com"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>  
+                <li class="nav-item ">
+                  <a class="nav-link" href="linkedin.com"><i class="fa fa-linkedin fa-2x icon-cog" aria-hidden="true"></i></a>  
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/imamfahr"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                  <a class="nav-link" href="https://github.com/imamfahr"><i class="fa fa-github fa-2x icon-cog" aria-hidden="true"></i></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="instagram.com"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                  <a class="nav-link" href="instagram.com"><i class="fa fa-instagram fa-2x icon-cog" aria-hidden="true"></i></a>
                 </li>
                 
               </ul>
@@ -38,62 +41,65 @@
           </nav>
 
       <!-- body -->
-      <div class="container-fluid bg-danger d-flex align-items-center full-height">
+      <div class="container-fluid cover d-flex align-items-center full-height">
 
         <div class="container badge-container">
         <div class="row">
-          <div class="col-sm-5 bg-dark d-flex justify-content-center">
+          <div class="col-sm-5 bg-light d-flex justify-content-center">
             <img class ="img-fluid" src="/image.jpg" alt="">
           </div>
           <div class="col-sm-7">
-           <div class="row bg-warning d-flex flex-column p-3">
-             <div class="hello">Hello!</div>
-             <div class="name">This is Imam Fahreza</div>
-             <div class="short-bio">Humanist | Engineer | Web Developer</div>   
+           <div class="row bg-light border-bottom d-flex flex-column p-3">
+             <div class="hello fjalla"><span id="hello">Hello!</span></div>
+             <div class="name font-a"><span class="quicksand">I'm</span> <span class="fjalla">Imam Fahreza</span> </div>
+             <div class="short-bio quicksand">Humanist | Engineer | Web Developer</div>   
            </div>
-           <div class="row bg-info d-flex flex-column p-3">
+           <div class="row bg-light d-flex flex-column p-3 quicksand">
             <table>
               <tr>
-                <td>age</td>
+                <td class="bolden">age</td>
                 <td>23</td>
               </tr>
               <tr>
-                <td>address</td>
+                <td class="bolden">address</td>
                 <td>Sangatta, Kalimantan Timur</td>
               </tr>
               <tr>
-                <td>email</td>
+                <td class="bolden">email</td>
                 <td>imamfahr@gmail.com</td>
               </tr>
               <tr>
-                <td>phone</td>
+                <td class="bolden">phone</td>
                 <td>+62-811-5530-196 </td>
               </tr>
               <tr>
-                <td>skills</td>
+                <td class="bolden">skill</td>
                 <td>fullstack web development</td>
               </tr>
               <tr>
-                <td>hobby</td>
+                <td class="bolden">hobby</td>
                 <td>travelling</td>
               </tr>
             </table>
            </div>
           </div>
         </div>
-        <di class="row d-flex justify-content-center">
-          <div class="col-sm-12 bg-light d-flex space-around">
-            <div class="socmed-icon">
-              <a href="facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <di class="row d-flex h-20 align-content-center">
+          <div class="col-sm-12 d-flex space-around jeans centering h-20">
+            <div class="socmed-icon mt-auto mb-auto ">
+              <a href="facebook.com"><i class="fa fa-facebook icon-cog" aria-hidden="true"></i></a>
             </div>
-            <div class="socmed-icon">
-              <a href="linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>  
-            </div><div class="socmed-icon">
-              <a href="https://github.com/imamfahr"><i class="fa fa-github" aria-hidden="true"></i></a>
-            </div><div class="socmed-icon">
-              <a href="twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </div><div class="socmed-icon">
-              <a href="instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <div class="socmed-icon mt-auto mb-auto">
+              <a href="linkedin.com"><i class="fa fa-linkedin icon-cog" aria-hidden="true"></i></a>  
+            </div>
+            <div class="socmed-icon mt-auto mb-auto ">
+              <a href="https://github.com/imamfahr"><i class="fa fa-github icon-cog" aria-hidden="true"></i></a>
+            </div>
+            <div class="socmed-icon mt-auto mb-auto">
+              <a href="twitter.com"><i class="fa fa-twitter icon-cog" aria-hidden="true"></i></a>
+            </div>
+            <div class="socmed-icon mt-auto mb-auto">
+              <a href="instagram.com"><i class="fa fa-instagram icon-cog" aria-hidden="true"></i></a>
             </div>
           </div>
         </di>
